@@ -1,0 +1,15 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.barra_rutas{
+    max-width: fit-content;
+    padding: 3rem;
+}
+
+
+.mapa{
+    padding: 3rem;
+};
