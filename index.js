@@ -31,7 +31,7 @@ RUTAS.forEach(ruta => {
 function cambiar_mapa(ruta_texto){
     let link = links_de_rutas.link_ruta[ruta_texto]
     if (link != undefined){
-        MAPA_PADRE.innerHTML = `"<iframe src=${link} class='mapa_l'></iframe>"`
+        MAPA_PADRE.innerHTML = `<iframe src=${link} class='mapa_l'></iframe>`
     }else{
         MAPA_PADRE.innerHTML = "<img src= 'ohno.svg' class='ohno'></img>"
     }
